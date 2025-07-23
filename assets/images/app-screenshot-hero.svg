@@ -1,0 +1,18 @@
+<svg width="300" height="533" viewBox="0 0 300 533" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="300" height="533" rx="24" fill="url(#gradient)"/>
+<rect x="20" y="60" width="260" height="453" rx="16" fill="white"/>
+<svg x="90" y="180" width="120" height="120" viewBox="0 0 120 120">
+<circle cx="60" cy="60" r="60" fill="#007AFF20"/>
+<path d="M45 60C45 52.268 51.268 46 59 46H81C88.732 46 95 52.268 95 60V80C95 87.732 88.732 94 81 94H59C51.268 94 45 87.732 45 80V60Z" fill="#007AFF"/>
+<circle cx="70" cy="70" r="10" fill="white"/>
+<circle cx="80" cy="55" r="3" fill="white"/>
+</svg>
+<text x="150" y="350" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="16" font-weight="600" fill="#007AFF" text-anchor="middle">Prime Shot</text>
+<text x="150" y="370" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" fill="#666" text-anchor="middle">AI Photo Studio</text>
+<defs>
+<linearGradient id="gradient" x1="0" y1="0" x2="300" y2="533" gradientUnits="userSpaceOnUse">
+<stop stop-color="#007AFF"/>
+<stop offset="1" stop-color="#5856D6"/>
+</linearGradient>
+</defs>
+</svg>

@@ -1,0 +1,28 @@
+<svg width="400" height="250" viewBox="0 0 400 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g transform="translate(50, 25)">
+<rect width="120" height="200" rx="12" fill="url(#phoneGradient)" stroke="#ddd" stroke-width="2"/>
+<rect x="10" y="20" width="100" height="160" rx="8" fill="white"/>
+<circle cx="60" cy="60" r="20" fill="#007AFF20"/>
+<rect x="20" y="90" width="80" height="8" rx="4" fill="#f0f0f0"/>
+<rect x="20" y="105" width="60" height="8" rx="4" fill="#f0f0f0"/>
+<rect x="20" y="120" width="70" height="8" rx="4" fill="#f0f0f0"/>
+</g>
+<g transform="translate(230, 25)">
+<rect width="120" height="200" rx="12" fill="url(#phoneGradient2)" stroke="#ddd" stroke-width="2"/>
+<rect x="10" y="20" width="100" height="160" rx="8" fill="white"/>
+<circle cx="60" cy="60" r="20" fill="#5856D620"/>
+<rect x="20" y="90" width="80" height="8" rx="4" fill="#f0f0f0"/>
+<rect x="20" y="105" width="60" height="8" rx="4" fill="#f0f0f0"/>
+<rect x="20" y="120" width="70" height="8" rx="4" fill="#f0f0f0"/>
+</g>
+<defs>
+<linearGradient id="phoneGradient" x1="0" y1="0" x2="120" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="#007AFF"/>
+<stop offset="1" stop-color="#5856D6"/>
+</linearGradient>
+<linearGradient id="phoneGradient2" x1="0" y1="0" x2="120" y2="200" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5856D6"/>
+<stop offset="1" stop-color="#AF52DE"/>
+</linearGradient>
+</defs>
+</svg>

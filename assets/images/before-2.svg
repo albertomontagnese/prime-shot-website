@@ -1,0 +1,6 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="120" height="120" rx="12" fill="#f8f9fa"/>
+<circle cx="60" cy="45" r="18" fill="#e9ecef"/>
+<path d="M30 85C30 70 42 60 60 60C78 60 90 70 90 85V95H30V85Z" fill="#e9ecef"/>
+<text x="60" y="110" font-family="system-ui, sans-serif" font-size="10" fill="#666" text-anchor="middle">Selfie</text>
+</svg>
