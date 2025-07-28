@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Shot - AI Photo Generation</title>
+    <meta name="description" content="Create stunning AI-generated photos with your unique persona using Prime Shot's advanced AI technology.">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            padding: 1rem 0;
+            box-shadow: 0 2px 20px rgba(0,0,0,0.1);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #667eea;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        
+        .nav-links a:hover {
+            color: #667eea;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 4rem 0;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+        
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .app-badges {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .app-badge {
+            height: 60px;
+            transition: transform 0.3s ease;
+        }
+        
+        .app-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .features {
+            background: white;
+            padding: 4rem 0;
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        
+        .feature {
+            text-align: center;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .feature:hover {
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .feature h3 {
+            margin-bottom: 1rem;
+            color: #667eea;
+        }
+        
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin-bottom: 1rem;
+        }
+        
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+        }
+        
+        .footer-links a:hover {
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .app-badges {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">Prime Shot</div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Create Stunning AI Photos</h1>
+                <p>Transform your ideas into personalized AI-generated images with Prime Shot</p>
+                
+                <div class="app-badges">
+                    <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&releaseDate=1280376000" alt="Download on the App Store" class="app-badge">
+                </div>
+            </div>
+        </section>
+
+        <section class="features" id="features">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 1rem; font-size: 2.5rem; color: #333;">Why Choose Prime Shot?</h2>
+                
+                <div class="features-grid">
+                    <div class="feature">
+                        <div class="feature-icon">🤖</div>
+                        <h3>Advanced AI Technology</h3>
+                        <p>Powered by cutting-edge AI models that understand and recreate your unique characteristics with stunning accuracy.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🔒</div>
+                        <h3>Privacy First</h3>
+                        <p>Your photos and face data are encrypted and securely processed. We never sell or share your personal information.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Lightning Fast</h3>
+                        <p>Generate high-quality personalized images in seconds. Perfect for social media, professional headshots, and creative projects.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">🎨</div>
+                        <h3>Unlimited Creativity</h3>
+                        <p>From professional headshots to fantasy art - create any style of image you can imagine with simple text prompts.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">📱</div>
+                        <h3>Easy to Use</h3>
+                        <p>Simple three-step process: upload photos, enter your prompt, and get amazing results. No technical skills required.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <div class="feature-icon">💎</div>
+                        <h3>Professional Quality</h3>
+                        <p>Generate high-resolution images suitable for professional use, social media, or personal projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="support.html">Support</a>
+                <a href="mailto:privacy@primeshot.app">Contact</a>
+            </div>
+            <p>&copy; 2025 Prime Shot. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
